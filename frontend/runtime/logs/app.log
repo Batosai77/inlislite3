@@ -1,0 +1,1193 @@
+2018-07-02 10:02:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\xampp\htdocs\inlislite31\frontend/messages//app.php Fallback file does not exist as well: D:\xampp\htdocs\inlislite31\frontend/messages//app.php
+    in D:\xampp\htdocs\inlislite31\frontend\views\site\index.php:17
+    in D:\xampp\htdocs\inlislite31\frontend\controllers\SiteController.php:110
+2018-07-02 10:02:32 [::1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:61.0) Gecko/20100101 Firefox/61.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_DNT' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\Didik Pribadi\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/inlislite31/index.php'
+    'REMOTE_PORT' => '53452'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite31/'
+    'SCRIPT_NAME' => '/inlislite31/index.php'
+    'PHP_SELF' => '/inlislite31/index.php'
+    'REQUEST_TIME_FLOAT' => 1530500551.621
+    'REQUEST_TIME' => 1530500551
+]
+2025-06-20 20:10:12 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Maximum execution time of 30 seconds exceeded' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:281
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2025-06-20 20:09:43 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '63438'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750424982.02
+    'REQUEST_TIME' => 1750424982
+]
+2025-06-23 12:00:30 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/idn/kvdate.php Fallback file does not exist as well: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/id/kvdate.php
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:290
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:316
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:266
+2025-06-23 12:00:21 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49888'
+    'REDIRECT_URL' => '/inlislite3/pendaftaran/anggota'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/pendaftaran/anggota'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654821.788
+    'REQUEST_TIME' => 1750654821
+]
+2025-06-23 12:00:33 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/9b630833/yii.validation.js".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/9b630833...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-23 12:00:32 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran/anggota'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49896'
+    'REDIRECT_URL' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654832.58
+    'REQUEST_TIME' => 1750654832
+]
+2025-06-23 12:02:19 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/ad95ab7/css/bootstrap-datepicker3.css.map".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/ad95ab7/...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-23 12:02:19 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49939'
+    'REDIRECT_URL' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654939.036
+    'REQUEST_TIME' => 1750654939
+]
+2025-06-23 12:02:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/idn/kvdate.php Fallback file does not exist as well: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/id/kvdate.php
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:290
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:316
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:266
+2025-06-23 12:02:38 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49978'
+    'REDIRECT_URL' => '/inlislite3/pendaftaran/anggota'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/pendaftaran/anggota'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654958.39
+    'REQUEST_TIME' => 1750654958
+]
+2025-06-23 12:02:40 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/ad95ab7/css/bootstrap-datepicker3.css.map".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/ad95ab7/...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-23 12:02:40 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49983'
+    'REDIRECT_URL' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654959.606
+    'REQUEST_TIME' => 1750654959
+]
+2025-06-23 12:02:40 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/9b630833/yii.validation.js".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/9b630833...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-23 12:02:40 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran/anggota'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '49978'
+    'REDIRECT_URL' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750654959.752
+    'REQUEST_TIME' => 1750654959
+]
+2025-06-25 13:18:33 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/idn/kvdate.php Fallback file does not exist as well: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/id/kvdate.php
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:290
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:316
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:266
+2025-06-25 13:18:32 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '50744'
+    'REDIRECT_URL' => '/inlislite3/pendaftaran/anggota'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/pendaftaran/anggota'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750832312.274
+    'REQUEST_TIME' => 1750832312
+]
+2025-06-25 13:18:34 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/9b630833/yii.validation.js".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/9b630833...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-25 13:18:34 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran/anggota'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '50745'
+    'REDIRECT_URL' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750832313.947
+    'REQUEST_TIME' => 1750832313
+]
+2025-06-25 13:27:11 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/ad95ab7/css/bootstrap-datepicker3.css.map".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/ad95ab7/...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-25 13:27:11 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '51042'
+    'REDIRECT_URL' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750832830.328
+    'REQUEST_TIME' => 1750832830
+]
+2025-06-25 13:40:58 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/idn/kvdate.php Fallback file does not exist as well: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/id/kvdate.php
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:290
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:316
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:266
+2025-06-25 13:40:58 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '51572'
+    'REDIRECT_URL' => '/inlislite3/pendaftaran/anggota'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/pendaftaran/anggota'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750833657.72
+    'REQUEST_TIME' => 1750833657
+]
+2025-06-25 13:40:59 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/9b630833/yii.validation.js".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/9b630833...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-25 13:40:59 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran/anggota'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '51573'
+    'REDIRECT_URL' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750833659.093
+    'REQUEST_TIME' => 1750833659
+]
+2025-06-25 14:08:56 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'kvdate' does not exist: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/idn/kvdate.php Fallback file does not exist as well: C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker/messages/id/kvdate.php
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:290
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:316
+    in C:\xampp\htdocs\inlislite3\vendor\kartik-v\yii2-widget-datepicker\DatePicker.php:266
+2025-06-25 14:08:56 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '52338'
+    'REDIRECT_URL' => '/inlislite3/pendaftaran/anggota'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/pendaftaran/anggota'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750835336.39
+    'REQUEST_TIME' => 1750835336
+]
+2025-06-25 14:08:58 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/9b630833/yii.validation.js".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/9b630833...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-25 14:08:58 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_SEC_CH_UA' => '\"Microsoft Edge\";v=\"137\", \"Chromium\";v=\"137\", \"Not/A)Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'script'
+    'HTTP_REFERER' => 'http://localhost/inlislite3/pendaftaran/anggota'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '52339'
+    'REDIRECT_URL' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/9b630833/yii.validation.js'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750835337.51
+    'REQUEST_TIME' => 1750835337
+]
+2025-06-25 14:08:58 [::1][-][fkgss98pur6gbfma7brm5mn2p5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/ad95ab7/css/bootstrap-datepicker3.css.map".' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('assets/ad95ab7/...', Array)
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Halaman tidak ditemukan.' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\inlislite3\index.php(18): yii\base\Application->run()
+#2 {main}
+2025-06-25 14:08:58 [::1][-][fkgss98pur6gbfma7brm5mn2p5][info][application] $_COOKIE = [
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => 'fkgss98pur6gbfma7brm5mn2p5'
+    '_csrf' => '4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE\";}'
+    '_backendInlislite' => '2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a:2:{i:0;s:17:\"_backendInlislite\";i:1;s:32:\"wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd\";}'
+    'backendSession' => '20h74c31f8knp97pruk8s3n7s3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.9,en-US;q=0.8'
+    'HTTP_COOKIE' => '_identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=fkgss98pur6gbfma7brm5mn2p5; _csrf=4fe1ee2ee854c5e0cf98cef21dd3d2439e3adf3893047ed9baf8fbd2c8adc158a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Op4j1eH7uhmN1fdYP2v8vsOVrwhI2HEE%22%3B%7D; _backendInlislite=2a433bda67aba674abf835b4ac827c9814ff214831a6aef3fedfc4aef06258c0a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_backendInlislite%22%3Bi%3A1%3Bs%3A32%3A%22wMm1EPZGRcb7fcXl9Cc36yIzTOP3ZJGd%22%3B%7D; backendSession=20h74c31f8knp97pruk8s3n7s3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\php-8.3.20-nts-Win32-vs16-x64;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Go\\bin;C:\\Users\\dukeo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\dukeo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\dukeo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\dukeo\\go\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/index.php'
+    'REMOTE_PORT' => '52343'
+    'REDIRECT_URL' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/inlislite3/assets/ad95ab7/css/bootstrap-datepicker3.css.map'
+    'SCRIPT_NAME' => '/inlislite3/index.php'
+    'PHP_SELF' => '/inlislite3/index.php'
+    'REQUEST_TIME_FLOAT' => 1750835337.955
+    'REQUEST_TIME' => 1750835337
+]
